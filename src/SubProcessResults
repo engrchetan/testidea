@@ -1,0 +1,13 @@
+RESULTS
+-------
+Unix Process Pipe Stream communication ->
+Took total 19,739,240,868 ns for iterations 100,000
+Average round trip 197,392 ns
+
+Process Socket communication ->
+Took total 22,720,837,581 ns for iterations 100,000
+Average round trip 227,208 ns
+
+CONCLUSION
+----------
+Java process spawning subprocess could manage lower latency through process input / output stream
